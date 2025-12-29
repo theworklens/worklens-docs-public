@@ -1,0 +1,18 @@
+{
+  "name": "worklens-docs-public",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "lint:docs": "node scripts/check-no-secrets.mjs && node scripts/validate-frontmatter.mjs && node scripts/validate-links.mjs"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.5.0",
+    "@docusaurus/preset-classic": "^3.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
