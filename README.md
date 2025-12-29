@@ -1,6 +1,6 @@
 # worklens-docs-public
 
-Public documentation site for WorkLens (MVP-1).
+Public documentation site for WorkLens.
 
 ## What this repo is
 - Public docs only (safe for everyone to read)
